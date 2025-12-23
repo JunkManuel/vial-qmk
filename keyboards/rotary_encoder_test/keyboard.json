@@ -14,7 +14,9 @@
 	
 	"features":
 	{
+		"encoder": true,
 		"rgb_matrix": true,
+		"extrakey": true,
 		"backlight": false,
 		"rgblight":false
 	},
@@ -23,6 +25,14 @@
 	"matrix_pins": {
 		"direct": [
 			["GP14"]
+		]
+	},
+	
+	"encoder":
+	{
+		"rotary":
+		[
+			{ "pin_a": "GP15", "pin_b": "GP27", "resolution": 1 }
 		]
 	},
 	
