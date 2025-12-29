@@ -32,7 +32,7 @@
 	{
 		"rotary":
 		[
-			{ "pin_a": "GP15", "pin_b": "GP27", "resolution": 1 }
+			{ "pin_a": "GP15", "pin_b": "GP27", "resolution": 4 }
 		]
 	},
 	
